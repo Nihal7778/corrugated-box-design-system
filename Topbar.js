@@ -1,58 +1,17 @@
 import React from 'react';
-import styled from 'styled-components';
+import { AppBar, Toolbar, Typography, IconButton } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 
-const AppBar = styled.div`
-  background-color: #1976d2;
-  box-shadow: 0 4px 2px -2px gray;
-  padding: 16px;
-`;
-
-const Toolbar = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-`;
-
-const Typography = styled.h1`
-  font-size: 24px;
-  font-weight: bold;
-  color: white;
-`;
-
-const IconButton = styled.button`
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-`;
-
-const LogoutButton = styled.button`
-  background-color: #f44336;
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 5px;
-  cursor: pointer;
-  &:hover {
-    background-color: #d32f2f;
-  }
-`;
-
-function Topbar({ toggleSidebar }) {
-  const handleLogout = () => {
-    // Placeholder for actual logout functionality
-    alert('Logged out');
-  };
-
+function Topbar() {
   return (
-    <AppBar>
+    <AppBar position="static">
       <Toolbar>
-        <IconButton aria-label="menu" onClick={toggleSidebar}>
+        <IconButton edge="start" color="inherit" aria-label="menu">
           <MenuIcon />
         </IconButton>
-        <Typography>Record Book</Typography>
-        <LogoutButton onClick={handleLogout}>Logout</LogoutButton>
+        <Typography variant="h6" style={{ flexGrow: 1 }}>
+          Record Book
+        </Typography>
       </Toolbar>
     </AppBar>
   );

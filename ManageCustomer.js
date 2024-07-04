@@ -21,7 +21,7 @@ function ManageCustomer() {
   useEffect(() => {
     const fetchCustomers = async () => {
       try {
-        const response = await axios.post('http://localhost:5001/customers');
+        const response = await axios.post('http://localhost:8087/customers');
         setCustomers(response.data);
       } catch (err) {
         console.error('Error fetching customers:', err);
@@ -33,7 +33,7 @@ function ManageCustomer() {
 
   const handleDelete = async (customer_code) => {
     try {
-      await axios.post('http://localhost:5001/customers/delete', { customer_code });
+      await axios.post('http://localhost:8087/customers/delete', { customer_code });
       setCustomers(customers.filter(customer => customer.customer_code !== customer_code));
     } catch (err) {
       console.error('Error deleting customer:', err);
@@ -50,7 +50,7 @@ function ManageCustomer() {
 
   const handleEditSubmit = async () => {
     try {
-      const response = await axios.post('http://localhost:5001/customers/update', editCustomer);
+      const response = await axios.post('http://localhost:8087/customers/update', editCustomer);
       setCustomers(customers.map(customer => customer.customer_code === editCustomer.customer_code ? response.data : customer));
       setEditCustomer(null);
     } catch (err) {
@@ -68,7 +68,7 @@ function ManageCustomer() {
 
   const handleAddSubmit = async () => {
     try {
-      const response = await axios.post('http://localhost:5001/customers/add', newCustomer);
+      const response = await axios.post('http://localhost:8087/customers/add', newCustomer);
       setCustomers([...customers, response.data]);
       setAddDialogOpen(false);
       setNewCustomer({

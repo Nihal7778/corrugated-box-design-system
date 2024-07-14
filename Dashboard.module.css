@@ -1,0 +1,19 @@
+.dashboardCard {
+  padding: 20px;
+  text-align: center;
+  background-color: #f5f5f5;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dashboardCard h6 {
+  margin-bottom: 10px;
+}
+
+.dashboardCard h4 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.dashboardCard button {
+  margin-top: 20px;
+}

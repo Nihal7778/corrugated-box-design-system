@@ -1,0 +1,49 @@
+.sidebar {
+  width: 250px;
+  background-color: #343a40;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.sidebar.closed {
+  transform: translateX(-100%);
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.nav-link {
+  display: block;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover {
+  background-color: #495057;
+}
+
+.dashboardCard {
+  padding: 20px;
+  text-align: center;
+  background-color: #f5f5f5;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dashboardCard h6 {
+  margin-bottom: 10px;
+}
+
+.dashboardCard h4 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.dashboardCard button {
+  margin-top: 20px;
+}

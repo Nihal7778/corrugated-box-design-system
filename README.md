@@ -1,4 +1,5 @@
 Overview
+
 This project is based on my internship work, where I contributed to the development of Banyan Champ, a solution for optimizing corrugated box design. The system leverages industry knowledge and algorithmic calculations to evaluate millions of combinations of paper grades, flutes, machine parameters, and safety factors — delivering optimal packaging specifications in seconds.
 
 Problem Statement
@@ -14,7 +15,6 @@ Developed using 40+ years of industry experience
 Patented algorithm to calculate Box Compression Strength (BCT), Bursting Strength, and ECT
 
 Automated workflows for:
-
 Box design specifications
 
 Corrugator machine parameters

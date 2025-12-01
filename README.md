@@ -54,6 +54,7 @@ Features:
 
 
 Tech Stack
+
 1)Python / SQL for data handling and calculations
 
 2)Excel / Power BI for system calculations and reporting
@@ -64,6 +65,7 @@ Tech Stack
 
 
 My Role
+
 During my internship I:,
 
 1)Designed workflows for Admin and Employee modules

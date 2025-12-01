@@ -4,33 +4,37 @@ This project is based on my internship work, where I contributed to the developm
 
 
 
+
 Problem Statement:
 
-No scientific way to evolve box specifications
+1)No scientific way to evolve box specifications
 
-Trial-and-error methods were expensive and time-consuming
+2)Trial-and-error methods were expensive and time-consuming
 
-Frequent design failures in the field led to penalties and loss of customer confidence
+3)Frequent design failures in the field led to penalties and loss of customer confidence
+
 
 
 
 Solution:
 
-Developed using 40+ years of industry experience
+1)Developed using 40+ years of industry experience
 
-Patented algorithm to calculate Box Compression Strength (BCT), Bursting Strength, and ECT
+2)Patented algorithm to calculate Box Compression Strength (BCT), Bursting Strength, and ECT
+
 
 
 
 Automated workflows for:
 
-Box design specifications
+1)Box design specifications
 
-Corrugator machine parameters
+2)Corrugator machine parameters
 
-Conversion and printing costs
+3)Conversion and printing costs
 
-Customer and employee management
+4)Customer and employee management
+
 
 
 
@@ -48,22 +52,24 @@ Features:
 
 
 
+
 Tech Stack
-Python / SQL for data handling and calculations
+1)Python / SQL for data handling and calculations
 
-Excel / Power BI for system calculations and reporting
+2)Excel / Power BI for system calculations and reporting
 
-GitHub for version control and collaboration
+3)GitHub for version control and collaboration
+
 
 
 
 My Role
-During my internship,
+During my internship I:,
 
-I:Designed workflows for Admin and Employee modules
+1)Designed workflows for Admin and Employee modules
 
-Structured machine and cost data for system calculations
+2)Structured machine and cost data for system calculations
 
-Automated safety factor and compression strength calculations
+3)Automated safety factor and compression strength calculations
 
-Documented the process in PPTs and Excel for integration into the system
+4)Documented the process in PPTs and Excel for integration into the system
